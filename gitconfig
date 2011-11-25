@@ -1,0 +1,25 @@
+[user]
+  name = Marc Falla
+  email = mfalla@mosb.be
+
+[alias]
+  a = add
+  st = status
+  ci = commit -v
+  br = branch -vv
+  co = checkout
+  df = diff
+  lg = log -p
+  cp = cherry-pick
+  dc = diff --cached
+  ap = add --patch
+  remote = remote -vv
+  unstage = reset HEAD
+  rollback = reset --soft HEAD^1
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
