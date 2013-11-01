@@ -1,6 +1,7 @@
 [user]
   name = Marc Falla
   email = mfalla@mosb.be
+  username = mfalla
 
 [alias]
   a = add
@@ -23,3 +24,9 @@
   diff = auto
   interactive = auto
   status = auto
+
+[advice]
+  statusHints = false
+
+[core]
+  whitespace = cr-at-eol
